@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Section_1 from "../COMPONENTS/RECIPES/SECTION_1/Section_1";
 
 function Recipes() {
   return (
-    <div>This is Recipes page....</div>
-  )
+    <div>
+      <Section_1 />
+    </div>
+  );
 }
 
-export default Recipes
+export default Recipes;
