@@ -15,7 +15,7 @@ const Section_5 = () => {
       </div>
 
       {/* images */}
-      <div className="flex flex-col lg:flex-row justify-center items-center gap-10">
+      <div className="flex flex-wrap justify-center items-center gap-10">
         <img className="w-[290px] h-[445px] border" src="./IMAGES/Post.png" alt="image" />
         <img className="w-[290px] h-[445px] border" src="./IMAGES/Post-1.png" alt="image" />
         <img className="w-[290px] h-[445px] border" src="./IMAGES/Post-2.png" alt="image" />

@@ -6,11 +6,13 @@ import Recipes from "./PAGES/Recipes";
 import Blog from "./PAGES/Blog";
 import Contact from "./PAGES/Contact";
 import AboutUs from "./PAGES/AboutUs";
+import ScrollToTop from "./COMPONENTS/ScrollToTop";
 
 function App() {
 
   return (
     <Router>
+        <ScrollToTop />
       <Routes>
         <Route path="/" Component={Layout}>
           <Route index Component={Home} />

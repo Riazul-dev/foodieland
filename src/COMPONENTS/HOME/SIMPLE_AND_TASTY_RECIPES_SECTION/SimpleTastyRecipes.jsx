@@ -5,10 +5,10 @@ import { SimpleRecipes } from "../../../DATA/Recipes";
 
 const SimpleTastyRecipes = () => {
   return (
-    <div className="my-16 lg:mx-10">
-      <div className="flex flex-col justify-center items-center gap-6 px-4 my-12 xl:w-[706px] text-center mx-auto">
+    <div className="my-16 mx-10">
+      <div className="flex flex-col justify-center items-center gap-6 px-4 my-12 text-center mx-auto">
         <TitleSection>Simple and tasty recipes</TitleSection>
-        <p className="text-base">
+        <p className="text-base max-w-2xl">
           Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqut enim ad minim
         </p>

@@ -9,14 +9,16 @@ import Section_7 from "../COMPONENTS/HOME/SECTION_7/Section_7";
 
 function Home() {
   return (
-    <div className="min-h-screen py-10">
+    <div>
       <HeroSection />
       <Categories />
       <SimpleTastyRecipes />
       <Section_4 />
       <Section_5 />
       <Section_6 />
-      <Section_7 />
+      <div className="px-10">
+        <Section_7 />
+      </div>
     </div>
   );
 }

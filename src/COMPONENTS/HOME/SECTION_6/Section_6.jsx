@@ -5,18 +5,20 @@ import { DeliciousRecipes } from "../../../DATA/Recipes";
 
 const Section_6 = () => {
   return (
-    <div className="space-y-20 my-40 lg:mx-10">
-      <div className="flex justify-between items-center">
+    <div className="space-y-20 my-40 px-10">
+      <div className="flex flex-col lg:flex-row lg:justify-between items-center gap-8">
         <TitleSection>
-          <span>Try this delicious recipe</span>
-          <span>to make your day</span>
+          <p className="flex flex-wrap">
+            <span>Try this delicious recipe</span>
+            <span>to make your day</span>
+          </p>
         </TitleSection>
-        <p className="text-base">
+        <p className="text-base md:px-10 text-center">
           Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqut enim ad minim
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-items-center gap-10 py-6">
+      <div className="flex flex-wrap gap-10 py-6">
         {DeliciousRecipes.map((item) => {
           return <CardRecipes_2 key={item.id} {...item} />;
         })}

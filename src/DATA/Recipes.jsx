@@ -190,3 +190,24 @@ export const DeliciousRecipes = [
     },
   },
 ];
+
+export const OtherRecipes = [
+  {
+    id: 1,
+    image: "./IMAGES/image26_16.png",
+    title: "Chicken Meatball with Creamy Chees...",
+    madeBy: "By Andreas Paula",
+  },
+  {
+    id: 2,
+    image: "./IMAGES/image26_17.png",
+    title: "The Creamiest Creamy Chicken an...",
+    madeBy: "By Andreas Paula",
+  },
+  {
+    id: 3,
+    image: "./IMAGES/image26_18.png",
+    title: "The Best Easy One Pot Chicken and Rice",
+    madeBy: "By Andreas Paula",
+  },
+];
