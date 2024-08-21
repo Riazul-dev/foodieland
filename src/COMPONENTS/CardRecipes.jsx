@@ -10,13 +10,13 @@ const CardRecipes = (item) => {
           <img className="object-cover" src={image} alt="image" />
         </div>
       ) : (
-        <div className="bg-gradient-to-b from-[#fff] to-[#E7F9FD] rounded-[30px] p-4">
+        <div className="bg-gradient-to-b from-[#fff] to-[#E7F9FD] rounded-[30px] p-4 mx-3">
           <div className="flex flex-col gap-6">
             <div className="">
               <img className="rounded-[20px]" src={image} alt="image" />
             </div>
             <div>
-              <p className="text-2xl font-semibold w-[368px]">{title}</p>
+              <p className="text-2xl font-semibold md:w-[368px]">{title}</p>
             </div>
 
             <div className="flex items-center gap-6 px-2">

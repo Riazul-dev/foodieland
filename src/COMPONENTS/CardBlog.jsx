@@ -4,8 +4,8 @@ const CardBlog = (item) => {
   const { image, title, desc, ellipse } = item;
   const { ellipseImage, name, date } = ellipse;
   return (
-    <div className="flex items-center gap-10">
-      <img className="rounded-[20px]" src={image} alt="image" />
+    <div className="flex flex-col md:flex-row items-center md:gap-10 px-4 py-8 border-b md:border-none">
+      <img className="rounded-[20px] w-full md:w-auto" src={image} alt="image" />
 
       <div className="space-y-8">
         <div className="space-y-4">
@@ -14,13 +14,13 @@ const CardBlog = (item) => {
         </div>
 
         {/* Ellipse section */}
-        <div className="flex items-center">
-          <div className="flex justify-center items-center">
+        <div className="flex flex-col md:flex-row items-start md:items-center gap-x-10">
+          <div className="flex flex-col md:flex-row justify-center items-start md:items-center gap-y-2 gap-x-4">
             <img src={ellipseImage} alt="ellipse" />
             <p>{name}</p>
           </div>
           {/* border div */}
-          <div className="bg-black/10 w-px h-10 mx-6"></div>
+          <div className="hidden md:block bg-black/10 w-px h-8"></div>
 
           <div>
             <p>{date}</p>

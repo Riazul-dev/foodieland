@@ -7,17 +7,24 @@ import CheckOutRecipes from "../COMPONENTS/CheckOutRecipes";
 
 function BlogPost() {
   return (
-    <div>
+    <div className="lg:px-0">
       <Header />
-      <img className="rounded-[30px]" src="./IMAGES/image29.png" alt="image" />
+      <div className="flex justify-center items-center px-4">
+        <img
+          className="rounded-[30px] my-10"
+          src="./IMAGES/image29.png"
+          alt="image"
+        />
+      </div>
 
-      <main className="grid grid-cols-4">
+      <main className="grid xl:grid-cols-4 xl:place-items-start gap-12 pb-10 px-4">
         <Left_section />
 
         <Right_section />
       </main>
-
-      <Section_7 />
+      <div className="px-3 md:px-10">
+        <Section_7 />
+      </div>
 
       <CheckOutRecipes title="Check out the delicious recipe" />
     </div>

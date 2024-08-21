@@ -4,8 +4,8 @@ import Button from "../../BUTTON/Button";
 
 const Section_4 = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-between items-center lg:px-10">
-      <div className="space-y-[72px] px-10 lg:px-0">
+    <div className="flex flex-col lg:flex-row justify-between items-center gap-y-10 lg:px-10">
+      <div className="space-y-10 md:space-y-[72px] px-10 lg:px-0">
         <div className="space-y-6">
           <TitleSection>
             <p className="flex flex-col">

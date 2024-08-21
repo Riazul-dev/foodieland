@@ -5,7 +5,7 @@ import { DeliciousRecipes } from "../../../DATA/Recipes";
 
 const Section_6 = () => {
   return (
-    <div className="space-y-20 my-40 px-10">
+    <div className="space-y-20 my-12 md:my-24 lg:my-40 px-10">
       <div className="flex flex-col lg:flex-row lg:justify-between items-center gap-8">
         <TitleSection>
           <p className="flex flex-wrap">

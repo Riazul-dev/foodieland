@@ -7,15 +7,16 @@ import BlogPost from "./BlogPost";
 
 function Blog() {
   return (
-    <div className="my-20 lg:mx-20">
+    <div className="my-10 lg:mx-20">
+      {/* <BlogPost /> */}
 
-<BlogPost />
-
-
-      {/* <Header />
+      <Header />
       <Section_1 />
       <Pagination />
-      <Section_7 /> */}
+
+      <div className="px-3 md:px-10">
+        <Section_7 />
+      </div>
     </div>
   );
 }

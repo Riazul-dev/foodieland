@@ -4,9 +4,13 @@ const CardRecipes_2 = (item) => {
   const { image, title, icons } = item;
   const { timer, titleOfTimer, forkKnife, titleOfForkKnife } = icons;
   return (
-    <div className="w-[290px] h-[316px] mx-auto flex flex-col justify-between">
-      <div className="w-[290px] h-[200px] rounded-[20px] overflow-hidden">
-        <img className="object-cover h-full" src={image} alt="imag" />
+    <div className="w-[290px] h-[316px] flex flex-col justify-center xl:justify-between items-center gap-y-4">
+      <div className="w-[290px] h-[200px]">
+        <img
+          className="object-cover rounded-[20px] mx-auto"
+          src={image}
+          alt="imag"
+        />
       </div>
 
       <div className="px-2">

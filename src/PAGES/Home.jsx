@@ -16,7 +16,7 @@ function Home() {
       <Section_4 />
       <Section_5 />
       <Section_6 />
-      <div className="px-10">
+      <div className="px-3 md:px-10">
         <Section_7 />
       </div>
     </div>

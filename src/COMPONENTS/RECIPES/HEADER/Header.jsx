@@ -4,12 +4,13 @@ import { FiPrinter, FiShare } from "react-icons/fi";
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center lg:mx-10 my-10">
-      <div className="space-y-12">
+    <div className="flex flex-col lg:flex-row justify-between items-center gap-y-10 lg:mx-14 my-10">
+      <div className="space-y-12 text-center lg:text-start">
         <TitleSection>Health Japanese Fried Rice</TitleSection>
 
-        <div className="flex items-center gap-10">
-          <div className="flex items-center justify-center gap-4">
+        <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-10">
+          
+          <div className="flex flex-col lg:flex-row items-center justify-center gap-4">
             <div className="rounded-full overflow-hidden">
               <img
                 className="w-[50px] h-[50px] object-cover"
@@ -24,9 +25,9 @@ const Header = () => {
           </div>
 
           {/* border div */}
-          <div className="w-px h-12 bg-black/10"></div>
+          <div className="w-12 h-px lg:w-px lg:h-12 bg-black/10"></div>
 
-          <div className="flex items-center justify-center gap-4">
+          <div className="flex flex-col lg:flex-row items-center justify-center gap-4">
             <div className="rounded-full overflow-hidden">
               <img
                 className="object-cover"
@@ -41,9 +42,9 @@ const Header = () => {
           </div>
 
           {/* border div */}
-          <div className="w-px h-12 bg-black/10"></div>
+          <div className="w-12 h-px lg:w-px lg:h-12 bg-black/10"></div>
 
-          <div className="flex items-center justify-center gap-4">
+          <div className="flex flex-col lg:flex-row items-center justify-center gap-4">
             <div className="rounded-full overflow-hidden">
               <img
                 className="object-cover"
@@ -58,9 +59,9 @@ const Header = () => {
           </div>
 
           {/* border div */}
-          <div className="w-px h-12 bg-black/10"></div>
+          <div className="w-12 h-px lg:w-px lg:h-12 bg-black/10"></div>
 
-          <div className="flex items-center justify-center gap-4">
+          <div className="flex flex-col lg:flex-row items-center justify-center gap-4">
             <div className="rounded-full overflow-hidden">
               <img
                 className="object-cover"
@@ -75,7 +76,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="flex gap-8">
+      <div className="flex lg:flex-col xl:flex-row justify-around w-full lg:w-auto lg:justify-normal gap-8">
         <div className="flex flex-col justify-center items-center gap-4">
           <div className="bg-[#E7FAFE] rounded-full w-20 h-20 flex justify-center items-center">
             <FiPrinter size={24} />

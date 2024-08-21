@@ -2,18 +2,18 @@ import React from "react";
 
 const Section_1 = () => {
   return (
-    <div className="grid grid-cols-3 gap-10 lg:mx-10">
-      <div className="col-span-2 rounded-[30px] overflow-hidden w-[840px] h-[600px] relative">
-        <img className="object-cover" src="./IMAGES/recipes.png" alt="image" />
+    <div className="grid  lg:grid-cols-3 gap-10 mx-4 lg:mx-10">
+      <div className="lg:col-span-2 w-full h-full xl:w-[840px] xl:h-[600px] grid place-items-center relative">
+        <img className="object-cover rounded-[30px]" src="./IMAGES/recipes.png" alt="image" />
         <img
-          className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+          className="absolute top-1/2 left-1/2 transform -translate-x-1/2 lg:-translate-y-full -translate-y-1/2 xl:-translate-y-1/2"
           src="./IMAGES/play.png"
           alt="play"
         />
       </div>
 
-      <div className="bg-[#E7FAFE] rounded-[30px] overflow-hidden p-8 flex flex-col justify-between">
-        <div>
+      <div className="lg:col-span-1 bg-[#E7FAFE] rounded-[30px] p-8">
+        <div className="flex flex-col justify-between">
           <h4 className="text-2xl font-semibold">Nutrition Information</h4>
 
           <div className="flex justify-between items-center border-b py-4">
@@ -54,8 +54,8 @@ const Section_1 = () => {
         </div>
       </div>
 
-      <div className="col-span-3 py-10">
-        <p className="text-black/60 leading-7 text">
+      <div className="lg:col-span-3 md:py-10">
+        <p className="text-black/60 leading-7 text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut

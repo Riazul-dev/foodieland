@@ -6,19 +6,19 @@ import Button from "../COMPONENTS/BUTTON/Button";
 
 function Contact() {
   return (
-    <div className="px-20">
+    <div className="">
       {/* section 1 */}
       <div>
         <div className="text-center my-20">
           <TitleSection>Contact us</TitleSection>
         </div>
-        <div className="grid grid-cols-3 gap-10">
+        <div className="lg:grid grid-cols-3 gap-10 space-y-10 px-4 md:px-10">
           <div className="col-span-1">
-            <img src="./IMAGES/contact_image.png" alt="image" />
+            <img className="mx-auto" src="./IMAGES/contact_image.png" alt="image" />
           </div>
           <div className="col-span-2 text-black/60">
-            <form onSubmit={(e)=>e.preventDefault()} className="space-y-10">
-              <div className="flex items-center gap-10">
+            <form onSubmit={(e)=>e.preventDefault()} className="space-y-10 pb-10">
+              <div className="flex flex-col md:flex-row items-center gap-10">
                 <div className="w-full flex flex-col">
                   <label htmlFor="name">NAME</label>
                   <input
@@ -38,7 +38,7 @@ function Contact() {
                   />
                 </div>
               </div>
-              <div className="flex items-center gap-10">
+              <div className="flex flex-col md:flex-row items-center gap-10">
                 <div className="w-full flex flex-col">
                   <label htmlFor="subject">SUBJECT</label>
                   <input
@@ -73,11 +73,11 @@ function Contact() {
       </div>
 
       {/* section 2 */}
-      <div>
+      <div className="px-3 md:px-10">
         <Section_7 />
       </div>
 
-      {/* section 2 */}
+      {/* section 3 */}
       <div>
         <CheckOutRecipes title="Check out the delicious recipe" />
       </div>

@@ -3,7 +3,7 @@ import TitleSection from "../TitleSection";
 
 const Header = () => {
   return (
-    <div>
+    <div className="flex flex-col justify-center items-center gap-8 text-center">
       <TitleSection>Full Guide to Becoming a Professional Chef</TitleSection>
 
       {/* Ellipse section */}
@@ -21,7 +21,7 @@ const Header = () => {
       </div>
 
       <div>
-        <p>
+        <p className="px-4 lg:px-0">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac
           ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula
           sed velit a faucibus. In feugiat vestibulum velit vel pulvinar.

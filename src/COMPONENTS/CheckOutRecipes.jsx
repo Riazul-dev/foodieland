@@ -10,7 +10,7 @@ const CheckOutRecipes = ({title}) => {
           {title}
         </h4>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-items-center gap-10 py-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-items-center gap-y-20 py-20">
         {DeliciousRecipes.map((item) => {
           if (item.id <= 4) {
             return <CardRecipes_2 key={item.id} {...item} />;

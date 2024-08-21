@@ -3,7 +3,7 @@ import CheckBoxFiled from "./CheckBoxFiled";
 
 const Ingredients = () => {
   return (
-    <div>
+    <div className="">
       <div className="pb-12">
         <h3 className="text-4xl font-semibold">Ingredients</h3>
       </div>

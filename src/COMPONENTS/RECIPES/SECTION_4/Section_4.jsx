@@ -3,7 +3,7 @@ import CheckOutRecipes from "../../CheckOutRecipes";
 
 const Section_4 = () => {
   return (
-    <div>
+    <div className="mx-10">
       <CheckOutRecipes title="You may like these recipe too" />
     </div>
   );

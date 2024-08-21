@@ -21,17 +21,22 @@ const HeroLeft = () => {
           Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqut enim ad minim
         </p>
-        <div className="flex flex-row gap-8 lg:gap-6">
-          <IconBox
-            img={"./IMAGES/Timer.png"}
-            text={"30 Minutes"}
-            backgroundColor={"white"}
-          />
-          <IconBox
-            img={"./IMAGES/ForkKnife.png"}
-            text={"Chicken"}
-            backgroundColor={"white"}
-          />
+        <div className="flex flex-col md:flex-row gap-8 lg:gap-6">
+          <div>
+            <IconBox
+              img={"./IMAGES/Timer.png"}
+              text={"30 Minutes"}
+              backgroundColor={"white"}
+            />
+          </div>
+
+          <div>
+            <IconBox
+              img={"./IMAGES/ForkKnife.png"}
+              text={"Chicken"}
+              backgroundColor={"white"}
+            />
+          </div>
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8 justify-between lg:items-center lg:pt-[76px]">
