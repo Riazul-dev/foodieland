@@ -6,7 +6,7 @@ const Left_section = () => {
     <div className="col-span-3 space-y-16 px-2">
       <div className="space-y-6">
         <H5 text="How did you start out in the food industry?" />
-        <p>
+        <p className="text-justify md:text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac
           ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula
           sed velit a faucibus. In feugiat vestibulum velit vel pulvinar. Fusce
@@ -16,7 +16,7 @@ const Left_section = () => {
 
       <div className="space-y-6">
         <H5 text="What do you like most about your job?" />
-        <p>
+        <p className="text-justify md:text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac
           ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula
           sed velit a faucibus. In feugiat vestibulum velit vel pulvinar. Fusce
@@ -26,8 +26,8 @@ const Left_section = () => {
 
       <div className="space-y-6">
         <H5 text="Do you cook at home on your days off?" />
-        <img src="./IMAGES/directions.png" alt="image" />
-        <p>
+        <img src="../IMAGES/directions.png" alt="image" />
+        <p className="text-justify md:text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac
           ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula
           sed velit a faucibus. In feugiat vestibulum velit vel pulvinar. Fusce
@@ -40,7 +40,7 @@ const Left_section = () => {
           text="What would your advice be to young people looking to get their foot in
           the door?"
         />
-        <p>
+        <p className="text-justify md:text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac
           ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula
           sed velit a faucibus. In feugiat vestibulum velit vel pulvinar. Fusce
@@ -49,7 +49,7 @@ const Left_section = () => {
       </div>
 
       <div className="bg-gradient-to-r from-black/5 to-black/2">
-        <p className="text-xl lg:text-4xl font-medium px-10 py-12">
+        <p className="text-xl lg:text-4xl text-justify md:text-center font-medium px-10 py-12">
           “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac
           ultrices odio.”
         </p>
@@ -60,7 +60,7 @@ const Left_section = () => {
           text="What is the biggest misconception that people have about being a
           professional chef?"
         />
-        <p>
+        <p className="text-justify md:text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac
           ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula
           sed velit a faucibus. In feugiat vestibulum velit vel pulvinar. Fusce

@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 const Right_section = () => {
   return (
-    <div className="flex lg:flex-col justify-center items-center gap-8">
+    <div className="flex lg:flex-col justify-center items-center gap-8 pt-10">
       <p className="text-nowrap">SHARE THIS ON:</p>
 
       {/* Social media icons */}
-      <div className="flex lg:flex-col gap-10">
+      <div className="flex xl:flex-col gap-10">
         <Link to="https://www.facebook.com/" target="_blank">
           <FaFacebookF className="w-2.5" />
         </Link>

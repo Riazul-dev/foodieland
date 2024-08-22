@@ -1,31 +1,29 @@
 import React from "react";
 import TitleSection from "../TitleSection";
 
-const Header = () => {
+const Header = ({ blogList }) => {
+  const { title, desc, ellipse } = blogList;
+  const { ellipseImage, name, date } = ellipse;
   return (
     <div className="flex flex-col justify-center items-center gap-8 text-center">
-      <TitleSection>Full Guide to Becoming a Professional Chef</TitleSection>
+      <TitleSection>{title}</TitleSection>
 
       {/* Ellipse section */}
-      <div className="flex items-center">
-        <div className="flex justify-center items-center">
-          <img src="./IMAGES/Ellipse-2.png" alt="ellipse" />
-          <p>John Smith</p>
+      <div className="flex flex-col md:flex-row items-center space-y-2">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-4">
+          <img src={ellipseImage} alt="ellipse" />
+          <p>{name}</p>
         </div>
         {/* border div */}
-        <div className="bg-black/10 w-px h-10 mx-6"></div>
+        <div className="hidden md:block bg-black/10 w-px h-10 mx-6"></div>
 
         <div>
-          <p>15 March 2022</p>
+          <p>{date}</p>
         </div>
       </div>
 
       <div>
-        <p className="px-4 lg:px-0">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac
-          ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula
-          sed velit a faucibus. In feugiat vestibulum velit vel pulvinar.
-        </p>
+        <p className="text-justify md:text-center px-4 lg:px-0">{desc}</p>
       </div>
     </div>
   );

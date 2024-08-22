@@ -19,8 +19,8 @@ const Section_7 = () => {
         </div>
       </div>
 
-      <img className="absolute bottom-0 right-0" src="./IMAGES/Photo.png" alt="image" />
-      <img className="absolute bottom-0 left-0 hidden md:block" src="./IMAGES/salad.png" alt="image" />
+      <img className="absolute bottom-0 right-0" src="../IMAGES/Photo.png" alt="image" />
+      <img className="absolute bottom-0 left-0 hidden md:block" src="../IMAGES/salad.png" alt="image" />
     </div>
   );
 };

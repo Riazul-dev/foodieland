@@ -1,14 +1,24 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CardBlog = (item) => {
-  const { image, title, desc, ellipse } = item;
+  const { id, image, title, desc, ellipse } = item;
   const { ellipseImage, name, date } = ellipse;
+
   return (
-    <div className="flex flex-col md:flex-row items-center md:gap-10 px-4 py-8 border-b md:border-none">
-      <img className="rounded-[20px] w-full md:w-auto" src={image} alt="image" />
+    <div className="flex flex-col md:flex-row items-center md:gap-10 py-4 px-4 lg:px-0 xl:p-0 border-b md:border-none">
+      <div className="">
+        <Link to={`/blogPost/${id - 1}`}>
+          <img
+            className="rounded-[20px] w-[340px] md:w-[500px] lg:w-auto"
+            src={image}
+            alt="image"
+          />
+        </Link>
+      </div>
 
       <div className="space-y-8">
-        <div className="space-y-4">
+        <div className="space-y-2">
           <h4 className="text-2xl font-semibold">{title}</h4>
           <p className="text-black/60 pr-10">{desc}</p>
         </div>
@@ -19,6 +29,7 @@ const CardBlog = (item) => {
             <img src={ellipseImage} alt="ellipse" />
             <p>{name}</p>
           </div>
+
           {/* border div */}
           <div className="hidden md:block bg-black/10 w-px h-8"></div>
 
