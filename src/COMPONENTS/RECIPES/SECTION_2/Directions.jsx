@@ -11,15 +11,16 @@ const Directions = () => {
         {/* List-1 */}
         <div className="py-12 border-b space-y-8">
           <div className="flex items-center gap-4">
+            {/* circle div */}
             <div className="w-6 h-6 border border-black/60 rounded-full"></div>
-            <h4 className="text-2xl font-semibold space-x-2">
+            <h4 className="text-lg md:text-2xl font-semibold space-x-2">
               <span>1. </span>
               <span>Lorem ipsum dolor sit amet</span>
             </h4>
           </div>
 
           <div className="pl-12">
-            <p>
+            <p className="text-justify md:text-center">
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
               aut fugit, sed quia consequuntur magni dolores eos qui ratione
               voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
@@ -30,7 +31,7 @@ const Directions = () => {
 
             <img className="my-12" src="./IMAGES/directions.png" alt="image" />
 
-            <p>
+            <p className="text-justify md:text-center">
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
               aut fugit, sed quia consequuntur magni dolores eos qui ratione
               voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
@@ -46,14 +47,14 @@ const Directions = () => {
         <div className="py-12 border-b space-y-8">
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 border border-black/60 rounded-full"></div>
-            <h4 className="text-2xl font-semibold space-x-2">
+            <h4 className="text-lg md:text-2xl font-semibold space-x-2">
               <span>2. </span>
               <span>Lorem ipsum dolor sit amet</span>
             </h4>
           </div>
 
           <div className="pl-12">
-            <p>
+            <p className="text-justify md:text-center">
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
               aut fugit, sed quia consequuntur magni dolores eos qui ratione
               voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
@@ -69,14 +70,14 @@ const Directions = () => {
         <div className="py-12 border-b space-y-8">
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 border border-black/60 rounded-full"></div>
-            <h4 className="text-2xl font-semibold space-x-2">
+            <h4 className="text-lg md:text-2xl font-semibold space-x-2">
               <span>3. </span>
               <span>Lorem ipsum dolor sit amet</span>
             </h4>
           </div>
 
           <div className="pl-12">
-            <p>
+            <p className="text-justify md:text-center">
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
               aut fugit, sed quia consequuntur magni dolores eos qui ratione
               voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem

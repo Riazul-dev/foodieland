@@ -55,7 +55,7 @@ const Section_1 = () => {
       </div>
 
       <div className="lg:col-span-3 md:py-10">
-        <p className="text-black/60 leading-7 text-center">
+        <p className="text-black/60 leading-7 text-justify md:text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
