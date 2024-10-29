@@ -14,7 +14,7 @@ const SimpleTastyRecipes = () => {
         </p>
       </div>
       {/* Card */}
-      <div className="flex flex-wrap justify-center gap-10 py-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 place-items-center gap-10 py-6">
         {SimpleRecipes.map((item) => {
           return <CardRecipes key={item.id} {...item} />;
         })}
