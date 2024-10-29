@@ -11,12 +11,12 @@ const CardRecipes = (item) => {
         </div>
       ) : (
         <div className="bg-gradient-to-b from-[#fff] to-[#E7F9FD] rounded-[30px] p-4 mx-3">
-          <div className="flex flex-col gap-6">
-            <div className="">
+          <div className="flex flex-col items-center gap-6">
+            <div>
               <img className="rounded-[20px]" src={image} alt="image" />
             </div>
             <div>
-              <p className="text-2xl font-semibold md:w-[368px]">{title}</p>
+              <p className="text-2xl text-center font-semibold md:w-[368px]">{title}</p>
             </div>
 
             <div className="flex items-center gap-6 px-2">

@@ -18,7 +18,7 @@ const Section_6 = () => {
           tempor incididunt ut labore et dolore magna aliqut enim ad minim
         </p>
       </div>
-      <div className="flex flex-wrap gap-10 py-6">
+      <div className="flex flex-wrap justify-center gap-10 py-6">
         {DeliciousRecipes.map((item) => {
           return <CardRecipes_2 key={item.id} {...item} />;
         })}
